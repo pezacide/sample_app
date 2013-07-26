@@ -33,7 +33,7 @@ config.infer_base_class_for_anonymous_controllers = false
 # order dependency and want to debug it, you can fix the order by providing
 # the seed, which is printed after each run.
 #
---seed 1234
+#--seed 1234
 config.order = "random"
 config.include Capybara::DSL
 end
